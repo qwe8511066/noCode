@@ -1,0 +1,96 @@
+@import "./variables.scss";
+
+.container-public {
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  @media (min-width: $screen-md) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.container{
+  @extend .container-public;
+}
+
+.container-lg {
+  @extend .container-public;
+  @media (min-width: $screen-md) {
+    max-width: $screen-md * 14/12;
+  }
+
+  @media (min-width: $screen-lg) {
+    max-width: $screen-lg * 14/12;
+  }
+
+  @media (min-width: $screen-xl) {
+    max-width: $screen-xl * 14/12;
+  }
+}
+
+.container-sm {
+  @extend .container-public;
+
+  @media (min-width: $screen-md) {
+    max-width: $screen-md * 10/12;
+  }
+
+  @media (min-width: $screen-lg) {
+    max-width: $screen-lg * 10/12;
+  }
+
+  @media (min-width: $screen-xl) {
+    max-width: $screen-xl * 10/12;
+  }
+}
+
+.container-mn {
+  @extend .container-public;
+
+  @media (min-width: $screen-md) {
+    max-width: $screen-md * 8/12;
+  }
+
+  @media (min-width: $screen-lg) {
+    max-width: $screen-lg * 8/12;
+  }
+
+  @media (min-width: $screen-xl) {
+    max-width: $screen-xl * 8/12;
+  }
+}
+
+.container-2mn {
+  @extend .container-public;
+
+  @media (min-width: $screen-md) {
+    max-width: $screen-md * 6/12;
+  }
+
+  @media (min-width: $screen-lg) {
+    max-width: $screen-lg * 6/12;
+  }
+
+  @media (min-width: $screen-xl) {
+    max-width: $screen-xl * 6/12;
+  }
+}
+
+.container-3mn {
+  @extend .container-public;
+
+  @media (min-width: $screen-md) {
+    max-width: $screen-md * 4/12;
+  }
+
+  @media (min-width: $screen-lg) {
+    max-width: $screen-lg * 4/12;
+  }
+
+  @media (min-width: $screen-xl) {
+    max-width: $screen-xl * 4/12;
+  }
+}

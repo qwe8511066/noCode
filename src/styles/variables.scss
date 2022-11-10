@@ -1,0 +1,30 @@
+// 对应tailwind.config ->screens ->md
+$screen-sm: $_screen_sm;
+
+// 对应tailwind.config ->screens ->md
+$screen-md: $_screen_md;
+
+// 对应tailwind.config ->screens ->lg
+$screen-lg: $_screen_lg;
+
+// 对应tailwind.config ->screens ->xl
+$screen-xl: $_screen_xl;
+
+$color-primary:$_primary;
+$color-secondary:$_secondary;
+$color-tertiary:$_tertiary;
+$color-dark:$_dark;
+$color-black:$_black;
+$color-light:$_light;
+$color-lighter:$_lighter;
+$color-link:$_link;
+$color-white:$_white;
+
+
+:export {
+
+  $screen-sm:$screen-sm;
+  $screen-md:$screen-md;
+  $screen-lg:$screen-lg;
+  $screen-xl:$screen-xl;
+}
